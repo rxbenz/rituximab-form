@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบฟอร์ม Rituximab RRMS</title>
+</head>
+<body>
+    <h1>แบบฟอร์ม Rituximab RRMS</h1>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>ส่วนที่ 1 ข้อมูลผู้ป่วย</legend>
+            <label for="name">ชื่อ:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="lastname">สกุล:</label>
+            <input type="text" id="lastname" name="lastname" required><br><br>
+
+            <label for="gender">เพศ:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">ชาย</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">หญิง</label><br><br>
+
+            <label for="hn">HN:</label>
+            <input type="text" id="hn" name="hn"><br><br>
+
+            <label for="hospital_code">รหัสโรงพยาบาล:</label>
+            <input type="text" id="hospital_code" name="hospital_code"><br><br>
+
+            <label for="id_number">เลขที่ประจำตัวประชาชน:</label>
+            <input type="text" id="id_number" name="id_number" maxlength="13"><br><br>
+
+            <label for="dob">วัน/เดือน/ปีเกิด:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="age">อายุ:</label>
+            <input type="number" id="age" name="age"><br><br>
+
+            <label for="weight">น้ำหนัก (กิโลกรัม):</label>
+            <input type="number" id="weight" name="weight"><br><br>
+        </fieldset>
+
+        <button type="submit">ส่งแบบฟอร์ม</button>
+    </form>
+</body>
+</html>
